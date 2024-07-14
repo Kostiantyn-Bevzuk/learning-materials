@@ -1,0 +1,40 @@
+[project]
+name = "fluent-python-book"
+version = "0.1.0"
+description = "Add your description here"
+authors = [
+    { name = "Kostiantyn", email = "battelfield567@gmail.com" }
+]
+dependencies = [
+    "ruff>=0.5.0",
+]
+readme = "README.md"
+requires-python = ">= 3.8"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.rye]
+managed = true
+dev-dependencies = []
+
+[tool.ruff]
+include = ["*.py", "*.pyi", "**/pyproject.toml"]
+exclude = ["notebooks", "jobs"]
+select = [
+    # Pyflakes
+    "F",
+    # Pycodestyle
+    "E",
+    "W",
+    # isort
+    "I001",
+]
+ignore = ["E712"]
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/fluent_python_book"]
