@@ -9,5 +9,18 @@
 #   generate-hashes: false
 
 -e file:.
+numpy==2.0.0
+    # via fluent-python-book
+    # via pandas
+pandas==2.2.2
+    # via fluent-python-book
+python-dateutil==2.9.0.post0
+    # via pandas
+pytz==2024.1
+    # via pandas
 ruff==0.5.0
     # via fluent-python-book
+six==1.16.0
+    # via python-dateutil
+tzdata==2024.1
+    # via pandas
