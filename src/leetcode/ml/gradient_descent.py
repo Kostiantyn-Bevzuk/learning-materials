@@ -5,7 +5,7 @@ class Solution:
         for step in range(iterations):
             init -= learning_rate * 2 * init
         return round(init, 5)
-    
+
 
 sol = Solution()
 iterations = 0
