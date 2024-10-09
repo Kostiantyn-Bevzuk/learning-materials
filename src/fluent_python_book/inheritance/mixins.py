@@ -1,10 +1,12 @@
 import collections
 
+
 def _upper(key):
     try:
         return key.upper()
     except AttributeError:
         return key
+
 
 class UpperCaseMixin:
     def __setitem__(self, key, item):
@@ -20,9 +22,8 @@ class UpperCaseMixin:
         return super().__contains__(_upper(key))
 
 
-class UpperDict(UpperCaseMixin, collections.UserDict):
-    ...
+class UpperDict(UpperCaseMixin, collections.UserDict): ...
 
 
-d = UpperDict([('a', 'letter A'), (2, 'digit two')])
+d = UpperDict([("a", "letter A"), (2, "digit two")])
 print(d)

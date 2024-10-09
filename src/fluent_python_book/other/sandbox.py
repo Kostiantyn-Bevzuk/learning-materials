@@ -18,10 +18,10 @@ def get_time_period(now: datetime, interval: int):
 
 
 class A:
-
     @property
     def a(self):
         return 1
-    
+
+
 a = A()
 print(a.a)

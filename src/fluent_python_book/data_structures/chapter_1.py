@@ -89,7 +89,6 @@ def main():
 #     main()
 
 
-
 def match_phone_number(phone):
     match tuple(phone):
         case ["1", *rest]:  # North America and Caribbean

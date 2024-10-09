@@ -12,7 +12,7 @@ class Solution:
         return -1
 
 
-nums = [-1,0,3,5,9,12]
+nums = [-1, 0, 3, 5, 9, 12]
 target = 2
 solution = Solution()
 print(solution.search(nums, target))
