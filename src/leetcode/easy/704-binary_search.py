@@ -3,12 +3,14 @@ class Solution:
         idx_l, idx_r = 0, len(nums) - 1
         while idx_l <= idx_r:
             new_idx = (idx_l + idx_r) // 2
-            if nums[new_idx] == target:
-                return new_idx
-            elif nums[new_idx] > target:
-                idx_r = new_idx - 1
+            # if nums[new_idx] == target:
+            #     return new_idx
+            if nums[new_idx] > target:
+                idx_r = new_idx - 1  # because don't need to double check it in second iteration
             elif nums[new_idx] < target:
-                idx_l = new_idx + 1
+                idx_l = new_idx + 1  # because don't need to double check it in second iteration
+            else:
+                return new_idx
         return -1
 
 
