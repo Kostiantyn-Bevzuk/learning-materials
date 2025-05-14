@@ -10,5 +10,5 @@ class Solution:
             char_set.add(s[r])
             res = max(res, r - l + 1) # max of result and curr window size
         return res
-    
+
 # Use window function to find the longest substring without repeating characters
