@@ -1,46 +1,35 @@
-class RandomizedSet:
+class DataProcessor:
 
-    def __init__(self):
-        self.hashmap = {} # {0: 0} value 0 with index
-        self.index_list = [] # [1, 3, 4]
+  data_storage = []
 
-    def insert(self, val: int) -> bool:
-        if val not in self.hashmap:
-            self.hashmap[val] = len(self.index_list)
-            self.index_list.append(val)
-            return True
-        return False
-        
+  def __init__(self, data=[]):
+        self.data = data
+        self.result = None
 
-    def remove(self, val: int) -> bool:
-        if val in self.hashmap:
-            index = self.hashmap.get(val)
-            last_val = self.index_list[-1]
-            self.index_list[index] = last_val
-            self.index_list.pop()
-            self.hashmap[last_val] = index
-            del self.hashmap[val]
-            return True
-        return False
+  async def add_data(self, new_data):
+        for item in new_data:
+            self.data.append(item)
+        self.data.sort()
 
+  async def process_data(self):
+        total = 0
+        for i in range(len(self.data)):
+            total = total + self.data[i]
+        if len(self.data) > 0:
+            self.result = total / len(self.data)
+        else:
+            self.result = 0
+        DataProcessor.data_storage.append(self.result)
+        return self.result
 
-    def getRandom(self) -> int:
-        import random
-        return random.choice(self.index_list)
-        
+  async def save_to_file(self, filename):
+        file = open(filename, 'w')
+        file.write(str(self.data))
+        file.close()
 
-# Your RandomizedSet object will be instantiated and called as such:
-# obj = RandomizedSet()
-# print(obj.remove(0))
-# print(obj.remove(0))
-# print(obj.insert(0))
-# print(obj.getRandom())
-# print(obj.remove(0))
-# print(obj.insert(0))
-# print(obj.insert(1))
-# print(obj.remove(2))
-# print(obj.insert(2))
-# print(obj.getRandom())
-# print(obj.remove(1))
-# print(obj.insert(2))
-# print(obj.getRandom())
+  async def load_from_file(self, filename):
+        file = open(filename, 'r')
+        content = file.read()
+        self.data = eval(content)
+        file.close()
+

@@ -10,6 +10,7 @@ class Solution:
 
 # Solution().twoSum(numbers = [2,3,4], target = 6)
 
+
 # Two pointers solution
 class Solution:
     def twoSum(self, numbers: list[int], target: int) -> list[int]:

@@ -10,7 +10,6 @@ class RandomizedSet:
             self.index_list.append(val)
             return True
         return False
-        
 
     def remove(self, val: int) -> bool:
         if val in self.hashmap:

@@ -1,0 +1,825 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "https://excalidraw.com",
+  "elements": [
+    {
+      "id": "bRQq6C_qu6FAkeeg4sliN",
+      "type": "text",
+      "x": 359,
+      "y": 114,
+      "width": 285.00000000000006,
+      "height": 250,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "b2b",
+      "roundness": null,
+      "seed": 1150896807,
+      "version": 261,
+      "versionNonce": 420877191,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1747947724891,
+      "link": null,
+      "locked": false,
+      "text": "Rotate array\n[1, 2, 3, 4, 5, 6, 7] by k= 3\nsteps:\n\nFirst step:\n[7, 1, 2,.... 5, 6]\nSecond step:\n[6, 7, 1, ...., 4, 5]\nLast step:\n[5, 6, 7, 1, 2, 3, 4]",
+      "fontSize": 20,
+      "fontFamily": 5,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "Rotate array\n[1, 2, 3, 4, 5, 6, 7] by k= 3 steps:\n\nFirst step:\n[7, 1, 2,.... 5, 6]\nSecond step:\n[6, 7, 1, ...., 4, 5]\nLast step:\n[5, 6, 7, 1, 2, 3, 4]",
+      "autoResize": false,
+      "lineHeight": 1.25
+    },
+    {
+      "id": "0n3kBek3QOedGqXcLibPm",
+      "type": "text",
+      "x": 349,
+      "y": 371,
+      "width": 536,
+      "height": 25,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "b2c",
+      "roundness": null,
+      "seed": 599718151,
+      "version": 351,
+      "versionNonce": 1119786537,
+      "isDeleted": false,
+      "boundElements": [],
+      "updated": 1747947577522,
+      "link": null,
+      "locked": false,
+      "text": "[1, 2, 3, 4, 5, 6, 7] Rotate arr -> [7, 6, 5, 4, 3, 2, 1]",
+      "fontSize": 20,
+      "fontFamily": 5,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "[1, 2, 3, 4, 5, 6, 7] Rotate arr -> [7, 6, 5, 4, 3, 2, 1]",
+      "autoResize": false,
+      "lineHeight": 1.25
+    },
+    {
+      "id": "3e5NpReyD8WIOzoUbwlsW",
+      "type": "freedraw",
+      "x": 685,
+      "y": 397,
+      "width": 76,
+      "height": 24,
+      "angle": 0,
+      "strokeColor": "#2f9e44",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "b2e",
+      "roundness": null,
+      "seed": 1351913831,
+      "version": 59,
+      "versionNonce": 947600361,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1747947519280,
+      "link": null,
+      "locked": false,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          9
+        ],
+        [
+          0,
+          13
+        ],
+        [
+          0,
+          16
+        ],
+        [
+          1,
+          17
+        ],
+        [
+          2,
+          17
+        ],
+        [
+          2,
+          18
+        ],
+        [
+          3,
+          18
+        ],
+        [
+          4,
+          19
+        ],
+        [
+          5,
+          19
+        ],
+        [
+          6,
+          20
+        ],
+        [
+          7,
+          20
+        ],
+        [
+          8,
+          21
+        ],
+        [
+          9,
+          21
+        ],
+        [
+          10,
+          21
+        ],
+        [
+          12,
+          20
+        ],
+        [
+          16,
+          20
+        ],
+        [
+          21,
+          20
+        ],
+        [
+          27,
+          20
+        ],
+        [
+          32,
+          20
+        ],
+        [
+          36,
+          20
+        ],
+        [
+          38,
+          20
+        ],
+        [
+          39,
+          20
+        ],
+        [
+          40,
+          20
+        ],
+        [
+          41,
+          19
+        ],
+        [
+          43,
+          19
+        ],
+        [
+          47,
+          18
+        ],
+        [
+          51,
+          18
+        ],
+        [
+          54,
+          17
+        ],
+        [
+          57,
+          17
+        ],
+        [
+          59,
+          17
+        ],
+        [
+          60,
+          17
+        ],
+        [
+          60,
+          16
+        ],
+        [
+          62,
+          16
+        ],
+        [
+          65,
+          16
+        ],
+        [
+          69,
+          16
+        ],
+        [
+          72,
+          16
+        ],
+        [
+          74,
+          16
+        ],
+        [
+          75,
+          16
+        ],
+        [
+          76,
+          16
+        ],
+        [
+          76,
+          15
+        ],
+        [
+          76,
+          14
+        ],
+        [
+          76,
+          12
+        ],
+        [
+          75,
+          10
+        ],
+        [
+          75,
+          8
+        ],
+        [
+          74,
+          6
+        ],
+        [
+          74,
+          4
+        ],
+        [
+          74,
+          3
+        ],
+        [
+          74,
+          2
+        ],
+        [
+          74,
+          1
+        ],
+        [
+          73,
+          0
+        ],
+        [
+          73,
+          -1
+        ],
+        [
+          73,
+          -2
+        ],
+        [
+          73,
+          -3
+        ],
+        [
+          72,
+          -3
+        ],
+        [
+          72,
+          -3
+        ]
+      ],
+      "pressures": [],
+      "simulatePressure": true,
+      "lastCommittedPoint": [
+        72,
+        -3
+      ]
+    },
+    {
+      "id": "AWd2m0aATHbiA99sB1w1B",
+      "type": "freedraw",
+      "x": 770,
+      "y": 396,
+      "width": 105,
+      "height": 17,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "b2f",
+      "roundness": null,
+      "seed": 1357518249,
+      "version": 70,
+      "versionNonce": 1630225993,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1747947524493,
+      "link": null,
+      "locked": false,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          0,
+          8
+        ],
+        [
+          0,
+          9
+        ],
+        [
+          0,
+          10
+        ],
+        [
+          0,
+          11
+        ],
+        [
+          0,
+          12
+        ],
+        [
+          1,
+          12
+        ],
+        [
+          2,
+          12
+        ],
+        [
+          3,
+          12
+        ],
+        [
+          4,
+          12
+        ],
+        [
+          5,
+          12
+        ],
+        [
+          6,
+          12
+        ],
+        [
+          7,
+          11
+        ],
+        [
+          8,
+          11
+        ],
+        [
+          9,
+          11
+        ],
+        [
+          10,
+          11
+        ],
+        [
+          12,
+          11
+        ],
+        [
+          15,
+          11
+        ],
+        [
+          18,
+          11
+        ],
+        [
+          20,
+          12
+        ],
+        [
+          22,
+          12
+        ],
+        [
+          23,
+          12
+        ],
+        [
+          24,
+          12
+        ],
+        [
+          25,
+          12
+        ],
+        [
+          27,
+          12
+        ],
+        [
+          32,
+          12
+        ],
+        [
+          38,
+          12
+        ],
+        [
+          45,
+          12
+        ],
+        [
+          50,
+          12
+        ],
+        [
+          55,
+          12
+        ],
+        [
+          57,
+          13
+        ],
+        [
+          58,
+          13
+        ],
+        [
+          59,
+          13
+        ],
+        [
+          60,
+          13
+        ],
+        [
+          62,
+          13
+        ],
+        [
+          65,
+          13
+        ],
+        [
+          70,
+          14
+        ],
+        [
+          74,
+          14
+        ],
+        [
+          77,
+          14
+        ],
+        [
+          79,
+          15
+        ],
+        [
+          80,
+          15
+        ],
+        [
+          81,
+          15
+        ],
+        [
+          82,
+          15
+        ],
+        [
+          84,
+          15
+        ],
+        [
+          88,
+          15
+        ],
+        [
+          93,
+          15
+        ],
+        [
+          98,
+          16
+        ],
+        [
+          101,
+          16
+        ],
+        [
+          103,
+          16
+        ],
+        [
+          104,
+          17
+        ],
+        [
+          105,
+          16
+        ],
+        [
+          104,
+          15
+        ],
+        [
+          104,
+          13
+        ],
+        [
+          103,
+          12
+        ],
+        [
+          103,
+          11
+        ],
+        [
+          102,
+          10
+        ],
+        [
+          102,
+          9
+        ],
+        [
+          102,
+          8
+        ],
+        [
+          102,
+          7
+        ],
+        [
+          102,
+          6
+        ],
+        [
+          102,
+          5
+        ],
+        [
+          102,
+          4
+        ],
+        [
+          101,
+          3
+        ],
+        [
+          101,
+          3
+        ]
+      ],
+      "pressures": [],
+      "simulatePressure": true,
+      "lastCommittedPoint": [
+        101,
+        3
+      ]
+    },
+    {
+      "id": "4vd5WyXpWdeoWcHRKi4GD",
+      "type": "arrow",
+      "x": 775,
+      "y": 426,
+      "width": 193,
+      "height": 39,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 4,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "b2h",
+      "roundness": {
+        "type": 2
+      },
+      "seed": 1343866887,
+      "version": 44,
+      "versionNonce": 1835133127,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1747947583856,
+      "link": null,
+      "locked": false,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          -193,
+          39
+        ]
+      ],
+      "lastCommittedPoint": null,
+      "startBinding": null,
+      "endBinding": null,
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "elbowed": false
+    },
+    {
+      "id": "on9klZZuzs5NdXim1ceuL",
+      "type": "text",
+      "x": 423,
+      "y": 481,
+      "width": 283,
+      "height": 50,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 4,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "b2i",
+      "roundness": null,
+      "seed": 785856487,
+      "version": 67,
+      "versionNonce": 1062019721,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1747947615936,
+      "link": null,
+      "locked": false,
+      "text": "Rotate two parts again,\nthat will be result (trick)",
+      "fontSize": 20,
+      "fontFamily": 5,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "Rotate two parts again, that will be result (trick)",
+      "autoResize": false,
+      "lineHeight": 1.25
+    },
+    {
+      "id": "JZwsGuJczW3ZfZjqt_JAW",
+      "type": "text",
+      "x": 637.6999999999999,
+      "y": 218,
+      "width": 379.6000000000001,
+      "height": 51.99999999999999,
+      "angle": 0,
+      "strokeColor": "#e03131",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 4,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "b2j",
+      "roundness": null,
+      "seed": 34859783,
+      "version": 314,
+      "versionNonce": 1575959177,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1747947690705,
+      "link": null,
+      "locked": false,
+      "text": "Don't forget to get k = k% len(arr)\nTo cover cases when k > len (arr)",
+      "fontSize": 20.799999999999997,
+      "fontFamily": 5,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "Don't forget to get k = k% len(arr)\nTo cover cases when k > len (arr)",
+      "autoResize": false,
+      "lineHeight": 1.25
+    },
+    {
+      "id": "e5yj9Q7u9jRERN4qtd6S3",
+      "type": "text",
+      "x": 652,
+      "y": 303,
+      "width": 278,
+      "height": 25,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "b2s",
+      "roundness": null,
+      "seed": 1303910665,
+      "version": 52,
+      "versionNonce": 1939669769,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1747947749605,
+      "link": null,
+      "locked": false,
+      "text": "O(n) - time O(1) - space",
+      "fontSize": 20,
+      "fontFamily": 5,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "O(n) - time O(1) - space",
+      "autoResize": false,
+      "lineHeight": 1.25
+    }
+  ],
+  "appState": {
+    "gridSize": 20,
+    "gridStep": 5,
+    "gridModeEnabled": false,
+    "viewBackgroundColor": "#ffffff"
+  },
+  "files": {}
+}

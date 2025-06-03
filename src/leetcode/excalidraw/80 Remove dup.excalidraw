@@ -1,0 +1,52 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "https://excalidraw.com",
+  "elements": [
+    {
+      "id": "aCbAGXQvRwGd5iJbR2fRL",
+      "type": "text",
+      "x": 328,
+      "y": 101,
+      "width": 658,
+      "height": 175,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "b2w",
+      "roundness": null,
+      "seed": 160255481,
+      "version": 485,
+      "versionNonce": 853747801,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1748367249092,
+      "link": null,
+      "locked": false,
+      "text": "Hints:\n1. Use two pointer approach\n2. you need to move 1 pointer by position where to insert up to x\nduplicates another pointer should has counter and calculate how\nmany duplicates goes in a row.\n3. Insert for _ in min(x, counter): nums[l] = nums[r]; l += 1. And be\ncareful with indexing it might be tricky.",
+      "fontSize": 20,
+      "fontFamily": 5,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "Hints:\n1. Use two pointer approach\n2. you need to move 1 pointer by position where to insert up to x duplicates another pointer should has counter and calculate how many duplicates goes in a row.\n3. Insert for _ in min(x, counter): nums[l] = nums[r]; l += 1. And be careful with indexing it might be tricky.",
+      "autoResize": false,
+      "lineHeight": 1.25
+    }
+  ],
+  "appState": {
+    "gridSize": 20,
+    "gridStep": 5,
+    "gridModeEnabled": false,
+    "viewBackgroundColor": "#ffffff",
+    "lockedMultiSelections": {}
+  },
+  "files": {}
+}

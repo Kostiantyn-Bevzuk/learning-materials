@@ -1,0 +1,52 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "https://excalidraw.com",
+  "elements": [
+    {
+      "id": "ziw4kCnEOxbAuRp-91gI8",
+      "type": "text",
+      "x": 420,
+      "y": 131,
+      "width": 566,
+      "height": 75,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "b2x",
+      "roundness": null,
+      "seed": 891931031,
+      "version": 227,
+      "versionNonce": 565894585,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1748984277669,
+      "link": null,
+      "locked": false,
+      "text": "To solve problem: best time to buy and sell, just use\nsliding window approach(two pointers) assign one to 0\nand second to 1, move them by the market logic",
+      "fontSize": 20,
+      "fontFamily": 5,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "To solve problem: best time to buy and sell, just use sliding window approach(two pointers) assign one to 0 and second to 1, move them by the market logic",
+      "autoResize": false,
+      "lineHeight": 1.25
+    }
+  ],
+  "appState": {
+    "gridSize": 20,
+    "gridStep": 5,
+    "gridModeEnabled": false,
+    "viewBackgroundColor": "#ffffff",
+    "lockedMultiSelections": {}
+  },
+  "files": {}
+}
