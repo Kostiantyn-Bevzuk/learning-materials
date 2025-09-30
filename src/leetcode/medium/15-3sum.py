@@ -1,20 +1,26 @@
 class Solution:
     def threeSum(self, nums: list[int]) -> list[list[int]]:
-        interim_dict = dict()
-        result = set()
+        result = []
+        nums.sort()
+        for indx, val in enumerate(nums):
+            if indx > 0 and val == nums[indx-1]:
+                continue
+            target = - val
+            i, j = indx+1, len(nums)-1
+            while i < j:
+                if nums[i] + nums[j] > target:
+                    j -= 1
+                elif nums[i] + nums[j] < target:
+                    i += 1
+                else:
+                    result.append([val, nums[i], nums[j]])
+                    i += 1
+                    while nums[i] == nums[i-1] and i < j:
+                        i += 1
+        return result
 
-        for i in range(len(nums)):
-            target = 0
-            target -= nums[i]
-            interim_dict = dict()
-            for j in range(i+1, len(nums)):
-                if nums[j] in interim_dict:
-                    interim_result = tuple(sorted([nums[i], nums[interim_dict[nums[j]]], nums[j]]))
-                    result.add(interim_result)
-                    continue
-                interim_dict[target - nums[j]] = j
-        return list(result)
 
+nums = [2,-3,0,-2,-5,-5,-4,1,2,-2,2,0,2,-4,5,5,-10]
 
-print(Solution().threeSum([-1,0,1,2,-1,-4]))
-# Exceed time limit
+print(Solution().threeSum(nums))
+
