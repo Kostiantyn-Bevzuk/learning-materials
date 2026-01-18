@@ -34,7 +34,7 @@ dev-dependencies = []
 [tool.ruff]
 include = ["*.py", "*.pyi", "**/pyproject.toml"]
 exclude = ["notebooks", "jobs"]
-select = [
+lint.select = [
     # Pyflakes
     "F",
     # Pycodestyle
@@ -43,7 +43,7 @@ select = [
     # isort
     "I001",
 ]
-ignore = ["E712"]
+lint.ignore = ["E712"]
 
 [tool.hatch.metadata]
 allow-direct-references = true
