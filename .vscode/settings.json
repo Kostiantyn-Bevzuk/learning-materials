@@ -11,5 +11,15 @@
   "editor.formatOnSave": true,
   "[python]": {
     "editor.defaultFormatter": "charliermarsh.ruff"
+  },
+  "github.copilot.enable": {
+    "*": false,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false
+  },
+  "code-runner.runInTerminal": true,
+  "code-runner.executorMap": {
+    "python": "uv run"
   }
 }
