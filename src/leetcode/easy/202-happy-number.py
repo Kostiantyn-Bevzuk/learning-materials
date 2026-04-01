@@ -20,4 +20,21 @@ class Solution:
 
 
 
-print(Solution().isHappy(10))
+# print(Solution().isHappy(10))
+
+
+class Solution:
+    def isHappy(self, n: int) -> bool:
+        variants = set()
+        n_str = str(n)
+        while n != 1:
+            if n_str in variants:
+                return False
+            variants.add(n_str)
+            value = 0
+            for char in n_str:
+                value += int(char) ** 2
+            n_str = str(value)
+        return True
+    
+print(Solution().isHappy(19))

@@ -39,7 +39,9 @@ class Solution:
         rows = len(matrix)
         cols = len(matrix[0])
 
-        dp = [[-float("inf")] * (cols + 1) for _ in range(rows + 1)]
+        dp = Is that the same:
+```
+[[-float("inf")] * (cols ) for _ in range(rows)]
 
         for row in range(rows + 1):
             dp[row][-1] = 0

@@ -21,16 +21,20 @@ class Solution:
         res = 0
         while r < len(s):
             if s[r] in storage:
-                if r == len(s)-1:
-                    return res
-                l = storage.get(s[r]) + 1
-                r = l + 1
-                storage = {s[l]: l}
-            else:
-                storage[s[r]] = r
-                res = max(r-l+1, res)
-                r += 1
+                l = max(l, storage.get(s[r]) + 1)
+            storage[s[r]] = r
+            res = max(r-l+1, res)
+            r += 1
+            
         return res
-    
-s = "bbbbbb"
+
+r = 3
+{"a" : 0,
+ "b": 1,
+ "c": 2,
+ }
+l = 1
+r = 2
+
+s = "tmmzuxt"
 Solution().lengthOfLongestSubstring(s)

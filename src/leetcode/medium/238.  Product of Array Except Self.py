@@ -55,7 +55,7 @@ class Solution:
         return result[1:]
 
 
-nums = [2, 2, 1, 3, 4]
+nums = [1,2,3,4]
 
 print(Solution().productExceptSelf(nums))
 
@@ -68,8 +68,15 @@ class Solution:
         for i in range(len(nums)):
             result[i] = prefix
             prefix *= nums[i]
+        nums.append(1)
         postfix = 1
         for i in range(len(nums)-1, -1, -1):
-            postfix *= result[i]
-            result[i] = postfix
+            postfix *= nums[i]
+            result[i] = postfix * result[i-1]
         return result
+    
+
+
+# nums = [1,2,3,4]
+
+# print(Solution().productExceptSelf(nums))

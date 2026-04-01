@@ -31,14 +31,14 @@ class Solution:
             best_summ_left = -float("inf")
             best_summ_right = -float("inf")
             running_max_summ = 0
-            for indx in range(mid_indx, left-1, -1):
+            for indx in range(mid_indx-1, left-1, -1):
                 running_max_summ = running_max_summ + nums[indx]
                 best_summ_left = max(best_summ_left, running_max_summ)
             running_max_summ = 0
             for indx in range(mid_indx+1, right+1):
                 running_max_summ = running_max_summ + nums[indx]
                 best_summ_right = max(best_summ_right, running_max_summ)
-            return best_summ_left + best_summ_right
+            return best_summ_left + best_summ_right + nums[mid_indx]
 
         return divide_and_conquer(start, end)
     
